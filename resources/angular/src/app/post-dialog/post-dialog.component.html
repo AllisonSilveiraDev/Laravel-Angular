@@ -1,0 +1,50 @@
+<div class="formulario">
+    <div class="formbox">
+        <mat-form-field>
+            <mat-label>digite seu nome</mat-label>
+            <input matInput [(ngModel)]="dados.post.nome">
+        </mat-form-field>
+
+        <mat-form-field >
+            <mat-label>digite seu email</mat-label>
+            <input matInput [(ngModel)]="dados.post.email">
+        </mat-form-field>
+    </div>
+
+    <div class="formbox">
+        <mat-form-field >
+            <mat-label>titulo da mensagem</mat-label>
+            <input matInput [(ngModel)]="dados.post.titulo">
+        </mat-form-field>
+
+        <mat-form-field >
+            <mat-label>subtitulo da mensagem</mat-label>
+            <input matInput [(ngModel)]="dados.post.subtitulo">
+        </mat-form-field>
+    </div>
+    <mat-form-field class="mensagem">
+        <mat-label>Deixe aqui sua mensagem</mat-label>
+        <textarea matInput [(ngModel)]="dados.post.mensagem"></textarea>
+      </mat-form-field>
+</div>
+
+<div class="nome-arquivo">
+    <p *ngIf="nomeArquivo!=''">
+        <strong>Arquivo: </strong>{{nomeArquivo}}
+    </p>
+</div>
+
+<div class="buttons">
+    <div class="button-add-photo">
+        <input type="file" (change)="mudouArquivo($event)" #fileinput >
+        <button mat-raised-button color="primary" (click)="fileinput.click()">
+            <mat-icon>add_a_photo</mat-icon>
+            Adicionar uma foto
+        </button>
+    </div>
+    
+    <div  class="button-ok-cancel">
+        <button mat-stroked-button color="primary" (click)="salvar()">OK</button>
+        <button mat-stroked-button color="warn" (click)="cancelar()">Cancelar</button>
+    </div>
+</div>

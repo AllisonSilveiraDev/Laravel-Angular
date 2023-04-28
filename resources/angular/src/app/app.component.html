@@ -1,0 +1,13 @@
+<mat-toolbar color="primary">
+  <span>Projeto Laravel + Angular</span>
+</mat-toolbar>
+
+<mat-divider></mat-divider>
+
+<div class="flex-card">
+  <app-post *ngFor="let post of posts" [post]="post"></app-post>
+</div>
+
+<button mat-fab color="primary" class="float-button" (click)="openDialog()">
+  <mat-icon>add</mat-icon>
+</button>

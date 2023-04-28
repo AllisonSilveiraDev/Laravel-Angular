@@ -1,0 +1,12 @@
+.float-button {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+}
+
+.flex-card {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-around;
+}

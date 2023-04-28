@@ -1,0 +1,22 @@
+<mat-card>
+    <mat-card-header>
+      <div mat-card-avatar></div>
+      <mat-card-title>{{post.titulo}}</mat-card-title>
+      <mat-card-subtitle>{{post.subtitulo}}</mat-card-subtitle>
+    </mat-card-header>
+    <img mat-card-image src="storage/{{post.arquivo}}" alt="Post photo">
+    <mat-card-content>
+      <p>
+        {{post.mensagem}}
+      </p>
+    </mat-card-content>
+    <mat-card-actions>
+      <div class="buttons-like-delete">
+        <button mat-raised-button color="primary" (click)="like()">Curtir</button>
+        <button mat-stroked-button color="warn" (click)="apagar()">Apagar</button>
+        <mat-icon *ngIf="post.likes != 0" color="warn" matBadge="{{post.likes}}" 
+          matBadgeColor="accent" matBadgeOverlap="false">favorite</mat-icon>
+      </div>
+    </mat-card-actions>
+  </mat-card>
+  

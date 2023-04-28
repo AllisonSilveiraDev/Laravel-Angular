@@ -1,0 +1,73 @@
+.formulario{
+    width: 48vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 55px auto 0;
+
+    .formbox{
+        width: 100%;
+        display: flex;
+        gap: 30px;
+    }
+
+    .mensagem {
+        width: 100%;
+        textarea {
+            resize: none;
+            height: 100px;
+        }
+    }
+    
+    mat-form-field{
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 700px) {
+    .formulario{
+        width: 90vw;
+    }
+}
+
+.nome-arquivo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    strong{
+        color:#673ab7;
+    }
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 197px;
+    margin: 0 auto;
+
+    .button-add-photo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        input {
+            display: none;
+        }
+    }
+    
+    .button-ok-cancel{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+
+        button{
+            width: 47%;
+        }
+    }
+}
