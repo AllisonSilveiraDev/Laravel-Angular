@@ -27,3 +27,5 @@ comando para rodar o projeto:
 
 - npm install<br>
 - npm run build<br>
+
+(criar o arquivo .env com a conexao com o banco de dados)
