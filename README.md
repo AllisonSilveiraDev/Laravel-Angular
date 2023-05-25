@@ -17,7 +17,6 @@ Site com formul√°rio para o cadastro de foto, titulo, subtitulo, nome e informa√
 comando para rodar o projeto:
 
 <strong>Backend:</strong>
-
 - criar o arquivo .env com a conexao com o banco de dados
 - composer install
 - php artisan migrate
@@ -26,7 +25,6 @@ comando para rodar o projeto:
 - php artisan serve
 
 <strong>Fronted:</strong>
-
 - npm install
 - npm run build
 
