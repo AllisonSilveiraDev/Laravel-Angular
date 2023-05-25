@@ -17,7 +17,13 @@ Site com formul√°rio para o cadastro de foto, titulo, subtitulo, nome e informa√
 comando para rodar o projeto:
 
 <strong>Backend:</strong><br>
+
+- composer install<br>
+- php artisan<br>
 - php artisan storage:link<br>
 - php artisan serve<br>
-- Fronted:<br>
+
+<strong>Fronted:</strong><br>
+
+- npm install<br>
 - npm run build<br>
