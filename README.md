@@ -18,6 +18,8 @@ comando para rodar o projeto:
 
 <strong>Backend:</strong><br>
 
+- criar o arquivo .env com a conexao com o banco de dados
+- php artisan migrate
 - composer install<br>
 - php artisan<br>
 - php artisan storage:link<br>
@@ -28,4 +30,4 @@ comando para rodar o projeto:
 - npm install<br>
 - npm run build<br>
 
-(criar o arquivo .env com a conexao com o banco de dados)
+
