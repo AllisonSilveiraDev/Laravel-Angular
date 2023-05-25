@@ -16,18 +16,18 @@ Site com formul√°rio para o cadastro de foto, titulo, subtitulo, nome e informa√
 
 comando para rodar o projeto:
 
-<strong>Backend:</strong><br>
+<strong>Backend:</strong>
 
 - criar o arquivo .env com a conexao com o banco de dados
+- composer install
 - php artisan migrate
-- composer install<br>
-- php artisan<br>
-- php artisan storage:link<br>
-- php artisan serve<br>
+- php artisan
+- php artisan storage:link
+- php artisan serve
 
-<strong>Fronted:</strong><br>
+<strong>Fronted:</strong>
 
-- npm install<br>
-- npm run build<br>
+- npm install
+- npm run build
 
 
