@@ -20,7 +20,6 @@ comando para rodar o projeto:
 - criar o arquivo .env com a conexao com o banco de dados
 - composer install
 - php artisan migrate
-- php artisan
 - php artisan storage:link
 - php artisan serve
 
